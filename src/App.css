@@ -145,7 +145,7 @@ a{
   }
   .cover {
     position:relative;
-    width: 85px;
+    width: 60px;
     height: auto;
     transition: all  .5s;
     transition-timing-function: ease-in-out;
