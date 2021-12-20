@@ -198,7 +198,6 @@ function App() {
         Switch Theme
       </button>
       <br/>
-      {/* <span className='title'> Bensa Beats</span> */}
       <img className='logo' src='logo.jpg'alt='logo'/>
       <section style={{ marginTop: '40px' }} className='tracks'>
 
