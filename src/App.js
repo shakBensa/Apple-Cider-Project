@@ -15,7 +15,7 @@ function App() {
   }
  
   return (
-    <div className="App" data-theme={theme}>
+    <div className="App" style={{height:'100vh'}} data-theme={theme}>
 
 
       <Router>
