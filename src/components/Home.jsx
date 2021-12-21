@@ -186,7 +186,7 @@ export default function Home() {
         }
     },]
     return (
-        <div>
+        <div style={{height:'100vh'}}>
             <section style={{ marginTop: '40px' }} className='tracks'>
 
                 <div className="container">
