@@ -239,3 +239,34 @@ a{
 
   }
 }
+@media only screen and  (max-width: 380px) {
+
+  .nav {
+    width: 100%;
+  }
+
+  .container{
+    grid-column-gap: 10px;
+
+    
+
+  }
+  .cover {
+    position:relative;
+    width: 75px;
+    height: auto;
+    transition: all  .5s;
+    transition-timing-function: ease-in-out;
+    
+  
+  }
+  .cover:hover {
+    position:relative;
+    width: 85px;
+    height: auto;
+    z-index:999;
+    transition: all  .5s;
+    transition-timing-function: ease-in-out;
+  
+  }
+}
