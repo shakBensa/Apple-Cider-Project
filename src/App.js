@@ -1,6 +1,6 @@
 import useLocalStorage from 'use-local-storage'
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Navigate,Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom'
 import Home from './components/Home';
 import Blog from './components/Blog';
 import About from './components/About';

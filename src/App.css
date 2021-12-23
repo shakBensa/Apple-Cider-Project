@@ -5,7 +5,7 @@
 
 
 .nav{
-  width: 60%;
+  width: 55%;
   height: 30px;
   padding-bottom: 10px;
   border-bottom: 2px groove var(--color-b);
@@ -136,6 +136,10 @@ a{
   
   
 }
+br{
+  display: block;
+  margin: 50px;
+}
 @media only screen and  (max-width: 1100px) {
 
 @media only screen and  (max-width: 880px) {
@@ -187,7 +191,7 @@ a{
 
 
 .nav{
-  width: 80%;
+  width: 90%;
 }
 }
 @media only screen and  (max-width: 620px) {
