@@ -6,7 +6,7 @@ export default function About() {
             <br />
 <img className='logo' src='logo.jpg' alt='logo' />
 
-            <p className='about' style={{ }}>Hey,my name is Shaked and I've been producing music for over a decade. <br />
+            <p className='about' >Hey,my name is Shaked and I've been producing music for over a decade. <br />
                 In 2020 I've released my first track and even though I had years of exprience I was worrying about what kind of feedback I will recieve. <br />
                 Fortunatly,this release got endoresed by amazing ChillHop & Lofi Curators such as 
                 <a className='endorsements' href="https://www.instagram.com/chillselect"> Chill Select</a>,
