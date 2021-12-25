@@ -153,6 +153,9 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: '650px';
+  margin: 'auto';
+  margin-top:'20px'
 }
 .break {
   flex-basis: 100%;
@@ -210,6 +213,10 @@ button {
 .nav{
   width: 90%;
 }
+.about{
+  width:800px;
+
+}
 }
 @media only screen and  (max-width: 620px) {
 
@@ -257,6 +264,11 @@ button {
 
 
   }
+  .about{
+    width:600px;
+
+    
+  }
 }
 @media only screen and  (max-width: 380px) {
 
@@ -287,5 +299,8 @@ button {
     transition: all  .5s;
     transition-timing-function: ease-in-out;
   
+  }
+  .about{
+    width:380px;
   }
 }
