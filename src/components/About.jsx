@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className='about' style={{ height: '100vh',width:'auto' }}>
+        <div className='about' style={{ height: '100vh', width: 'auto' }}>
             <br />
-<img style={{marginBottom:'20px'}} className='logo' src='logo.jpg' alt='logo' />
+            <img className='logo' src='logo.jpg' alt='logo' />
 
 
             <p className='about' >Hey,my name is Shaked and I've been producing music for over a decade. <br />
                 In 2020 I've released my first track and even though I had years of exprience I was worrying about what kind of feedback I will recieve. <br />
-                Fortunatly,this release got endoresed by amazing ChillHop & Lofi Curators such as 
+                Fortunatly,this release got endoresed by amazing ChillHop & Lofi Curators such as
                 <a className='endorsements' href="https://www.instagram.com/chillselect" target="_blank" rel="noreferrer"> Chill Select</a>,
                 <a className='endorsements' href="https://www.thebeatforest.com/" target="_blank" rel="noreferrer"> The Beatforest</a>,
                 <a className='endorsements' href="https://www.chilledcatmusic.com/" target="_blank" rel="noreferrer"> ChilledCat</a>,

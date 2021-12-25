@@ -59,6 +59,7 @@ button:active {
   width: 115px;
   height: 115px;
   border-radius: 10%;
+  margin-bottom: 20px;
   position: relative;
 }
 .App {
