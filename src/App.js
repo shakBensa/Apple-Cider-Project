@@ -43,7 +43,6 @@ function App() {
         </button>
         <br />
       </div>
-      <img className='logo' src='logo.jpg' alt='logo' />
 
         <Routes>
 
