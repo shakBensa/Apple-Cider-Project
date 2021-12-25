@@ -263,7 +263,7 @@ button {
 
   }
   .about{
-    width:600px;
+    width:400px;
 
     
   }
@@ -299,6 +299,6 @@ button {
   
   }
   .about{
-    width:380px;
+    width:inherit;
   }
 }

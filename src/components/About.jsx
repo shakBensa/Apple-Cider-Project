@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className='about' style={{ height: '100vh' }}>
+        <div className='about' style={{ height: '100vh',width:'auto' }}>
             <br />
 <img className='logo' src='logo.jpg' alt='logo' />
 
