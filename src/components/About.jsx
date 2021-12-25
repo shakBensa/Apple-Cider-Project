@@ -14,7 +14,7 @@ export default function About() {
                 <a className='endorsements' href="https://www.chilledcatmusic.com/"> ChilledCat</a>,
                 <a className='endorsements' href="https://www.thewordisbond.com/"> The Word Is Bond </a>
                 and many more awesome people that helped my music get heard along the way. <br />
-                <br />Since then I've amassed over 400K streams on Spotify <br /> but there is no "End Goal" for me at the moment. <br />
+                <br />Since then I've amassed over 400K streams on Spotify. <br />There is no "End Goal" for me at the moment. <br />
                 The feeling I get when I make beats is unmatched,<br />
                 I do it for the love and I don't see myself stopping anytime soon.
                 <br />
