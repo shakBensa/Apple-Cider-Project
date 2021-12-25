@@ -1,6 +1,6 @@
 import useLocalStorage from 'use-local-storage'
 import './App.css';
-import { BrowserRouter as Router, Routes, Route,Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './components/Home';
 import Blog from './components/Blog';
 import About from './components/About';
@@ -13,36 +13,39 @@ function App() {
     const newTheme = theme === 'A' ? 'B' : 'A';
     setTheme(newTheme)
   }
- 
+
   return (
-    <div className="App"  data-theme={theme}>
+    <div className="App" data-theme={theme}>
 
 
       <Router>
 
-      <div className='nav'>
+        <div className='nav'>
 
-        <br />
-        <Link to="/About">
+          <br />
+          <Link to="/About">
             <button>
-          About
-        </button> 
-        </Link>
-        <Link to="/">
-        <button>
-     Home
-        </button>
-        </Link>
-        <Link to="/Blog">
-        <button >
-       Blog
-        </button>
-        </Link>
-        <button onClick={switchTheme}>
-          Theme
-        </button>
-        <br />
-      </div>
+              About
+            </button>
+          </Link>
+          <Link to="/">
+            <button>
+              Home
+            </button>
+          </Link>
+          <Link to="/Blog">
+            <button >
+              Blog
+            </button>
+          </Link>
+
+          <button onClick={switchTheme}>
+            Theme
+       
+          </button>
+          <br />
+        
+        </div>
 
         <Routes>
 
